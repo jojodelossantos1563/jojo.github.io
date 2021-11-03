@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: #99cfcf;
+    top: 0;
+}
+header h1{
+    color:black;
+    letter-spacing: 5px;
+    margin: auto;
+}
+header h1:hover{
+    color:white;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+ }
+ ul li{
+     margin: 10px;
+     padding: 0px 30px;
+ }
+ ul li a{
+     color:black;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+ } 
+ ul li a:hover{
+     color:white;
+ }
+ main{
+     margin-top: 60px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+.item1 {
+    background-color: gray;
+    background: linear-gradient(transparent, gray);
+}
+
+.item1 > a{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding:10px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.line1 {
+    padding: 20px;
+}
+.item2{
+     background: url(https://apicms.thestar.com.my/uploads/images/2020/09/16/861683.jpg);
+     background-size: cover;
+     background-repeat: no repeat;
+ }
+
+.item3 {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     height: 50vh;
+     gap: 10px;
+     padding:5px;
+     background-color:lightblue;
+}
+.line2
+{
+    background: url(/imagefolder/event1.png);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.line3
+{
+    background: url(/imagefolder/event2.png);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.line4
+{
+    background: url(/imagefolder/event3.png);
+    background-repeat: no repeat;
+    background-size: cover;
+} 
+footer
+{
+    background-color: #99cfcf;
+}

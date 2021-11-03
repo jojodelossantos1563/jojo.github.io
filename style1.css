@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/564x/57/57/fd/5757fd09071bf27b5ec9c091a3c1c0e1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header{
+    position:fixed;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: #99cfcf;
+    top: 0;
+}
+header h1{
+    color:black;
+    letter-spacing: 5px;
+    margin: auto;
+}
+header h1:hover{
+    color:white;
+    cursor: pointer;
+}
+main{
+    height: 600px;
+    
+}
+.booknow{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 100px;
+    margin-top: 250px;
+    font-size: 20px;
+}
+.booknow > .oasis {
+    letter-spacing: 3px;
+}
+ul{
+   display: flex;
+   list-style: none;
+}
+ul li{
+    margin: 10px;
+    padding: 0px 30px;
+}
+ul li a{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+} 
+ul li a:hover{
+    color:white;
+}

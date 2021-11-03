@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: #99cfcf;
+    top: 0;
+}
+header h1{
+    color:black;
+    letter-spacing: 5px;
+    margin: auto;
+}
+header h1:hover{
+    color:white;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+ }
+ ul li{
+     margin: 10px;
+     padding: 0px 30px;
+ }
+ ul li a{
+     color:black;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+ } 
+ ul li a:hover{
+     color:white;
+ }
+ main {
+     margin-top: 60px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     height: 90vh;
+
+ }
+ main > .item1 > a >img{
+   margin: 40px 40px 0px 40px;
+ }
+
+ main > .item1 > .item2{
+    margin: 40px;
+ }
+ h2{
+     color:beige;
+     font-size: 30px;
+ }
+.item3{
+    background: url(https://moongdatascience.files.wordpress.com/2020/12/3360_sl20cr.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+footer{
+    background-color: #99cfcf;
+}
